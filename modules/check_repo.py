@@ -4,7 +4,7 @@ import allure
 
 @allure.step('Открытие сайта')
 def open_page():
-    browser.open("https://github.com")
+    browser.open("")
 
 
 @allure.step('Нажатие на поле поиска')
