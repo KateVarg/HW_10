@@ -2,7 +2,7 @@ from selene import browser, by, be
 
 
 def test_selene():
-    browser.open("https://github.com")
+    browser.open('')
 
     browser.element('.search-input').click()
     browser.element('#query-builder-test').type('eroshenkoam/allure-example').press_enter()

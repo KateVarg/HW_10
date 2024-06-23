@@ -4,7 +4,7 @@ import allure
 
 def test_with_allure():
     with allure.step('Открытие сайта'):
-        browser.open("https://github.com")
+        browser.open('')
 
     with allure.step('Нажатие на поле поиска'):
         browser.element('.search-input').click()
